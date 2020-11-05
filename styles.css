@@ -61,7 +61,7 @@ h2 {
   width: 53vw;
   height: auto;
   top: 16em;
-  right: 0;
+  right: -1em;
   border-radius: 25px;
 }
 
@@ -133,7 +133,7 @@ h2 {
   width: 53vw;
   height: auto;
   top: 84em;
-  right: 0;
+  right: -1em;
   border-radius: 25px;
   margin: 0;
 }
@@ -205,8 +205,8 @@ h2 {
   position: absolute;
   width: 53vw;
   height: auto;
-  top: 157em;
-  right: 0;
+  top: 161em;
+  right: -1em;
   border-radius: 25px;
 }
 
