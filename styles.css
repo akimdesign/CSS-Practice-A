@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Crimson Text", serif;
+}
+
+p {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+header {
+  width: 20vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: black;
+  height: 20em;
+  margin-top: 15em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  padding: 0.5em;
+  animation: scale 3s infinite ease-in-out;
+  animation-direction: alternate;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  padding: 1em;
+}
+
+.supernatural {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.supernatural p {
+  color: white;
+  font-size: 16px;
+  width: 43vw;
+  padding: 0 0 1em 2em;
+  /* margin: 0 50em 1rem 2em; */
+}
+
+.super_img {
+  position: absolute;
+  width: 53vw;
+  height: auto;
+  top: 16em;
+  right: 0;
+  border-radius: 25px;
+}
+
+.umbrella {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 100vw;
+  height: 60vh;
+}
+
+.umbrella h2 {
+  color: black;
+  position: absolute;
+  right: 1em;
+  top: 25em;
+}
+
+.umbrella p {
+  animation-duration: 2s;
+  animation-name: slidein2;
+  position: absolute;
+  right: 0;
+  top: 53em;
+  color: black;
+  font-size: 16px;
+  width: 43vw;
+  /* padding: 0 1em 1em 2em; */
+  /* margin: 0 50em 1rem 2em; */
+}
+
+.umb_img {
+  position: relative;
+  width: 53vw;
+  height: auto;
+  top: 15em;
+  left: 0;
+  border-radius: 25px;
+}
+
+.hundred {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+  width: 100vw;
+  height: 65vh;
+}
+
+.hundred p {
+  position: relative;
+  left: 1em;
+  top: 15em;
+  color: white;
+  font-size: 16px;
+  width: 43vw;
+  padding: 2em 0 1em 1em;
+}
+
+.hundred h2 {
+  color: white;
+  position: absolute;
+  top: 42em;
+}
+
+.hundred_img {
+  position: absolute;
+  width: 53vw;
+  height: auto;
+  top: 84em;
+  right: 0;
+  border-radius: 25px;
+  margin: 0;
+}
+
+.expanse {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 100vw;
+  height: 60vh;
+}
+
+.expanse h2 {
+  color: black;
+  position: absolute;
+  right: 1em;
+  top: 66em;
+}
+
+.expanse p {
+  animation-duration: 2s;
+  animation-name: slidein2;
+  position: absolute;
+  right: 0;
+  top: 131em;
+  color: black;
+  font-size: 16px;
+  width: 43vw;
+  /* padding: 0 1em 1em 2em; */
+  /* margin: 0 50em 1rem 2em; */
+}
+
+.exp_img {
+  position: relative;
+  width: 53vw;
+  height: auto;
+  top: 12em;
+  left: 0;
+  border-radius: 25px;
+}
+
+.got {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+  width: 100vw;
+  height: 65vh;
+}
+
+.got p {
+  position: relative;
+  left: 1em;
+  top: 16em;
+  color: white;
+  font-size: 16px;
+  width: 43vw;
+  padding: 2em 0 1em 1em;
+}
+
+.got h2 {
+  color: white;
+  position: relative;
+  top: 10em;
+}
+
+.got_img {
+  position: absolute;
+  width: 53vw;
+  height: auto;
+  top: 157em;
+  right: 0;
+  border-radius: 25px;
+}
+
+.kingdom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 60vh;
+}
+
+.kingdom h2 {
+  color: black;
+  position: absolute;
+  right: 1em;
+  top: 102em;
+}
+
+.kingdom p {
+  animation-duration: 2s;
+  animation-name: slidein2;
+  position: absolute;
+  right: 0;
+  top: 198em;
+  color: black;
+  font-size: 16px;
+  width: 43vw;
+  /* padding: 0 1em 1em 2em; */
+  /* margin: 0 50em 1rem 2em; */
+}
+
+.kingdom_img {
+  position: relative;
+  width: 53vw;
+  height: auto;
+  top: 24em;
+  left: 0;
+  border-radius: 25px;
+  /* margin-bottom: 10em; */
+}
+
+/* Transitions */
+
+img:hover {
+  border: solid 1px rgb(103, 26, 136);
+  box-shadow: 0px 0px 9px 3px #777676;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1, 1) rotate(0);
+    transition: infinite ease-in-out;
+  }
+  50% {
+    transform: scale(2, 2) rotate(10deg);
+    transition: infinite ease-in-out;
+  }
+  75% {
+    transform: scale(2, 2) rotate(-10deg);
+    transition: infinite ease-in-out;
+  }
+  100% {
+    transform: scale(1, 1) rotate(0deg);
+    color: rgb(103, 26, 136);
+    transition: infinite ease-in-out;
+  }
+}
+
+/* Animations  */
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+@keyframes slidein2 {
+  from {
+    margin-right: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  header {
+    width: 34vw;
+    padding-top: 2em;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0.5em;
+  }
+
+  .supernatural {
+    width: 100vw;
+    height: 65vh;
+    vertical-align: middle;
+  }
+
+  .supernatural h2 {
+    position: relative;
+    top: 0em;
+    font-size: 20px;
+    left: 1em;
+  }
+
+  .super_img {
+    position: relative;
+    width: 55vw;
+    height: auto;
+    top: 0;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .supernatural p {
+    color: white;
+    width: 83vw;
+    font-size: 12px;
+    margin: 0 2em 1em 2em;
+    padding: 0;
+  }
+
+  .umbrella {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  .umbrella h2 {
+    position: relative;
+    top: 0em;
+    font-size: 20px;
+    left: 1em;
+  }
+
+  .umb_img {
+    position: relative;
+    width: 55vw;
+    height: auto;
+    top: 0;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .umbrella p {
+    position: relative;
+    top: 0em;
+    color: black;
+    width: 83vw;
+    font-size: 12px;
+    margin: 0 2em 1em 2em;
+    padding: 0;
+  }
+
+  .hundred {
+    width: 100vw;
+    height: 67vh;
+  }
+
+  .hundred h2 {
+    position: relative;
+    top: 0em;
+    font-size: 20px;
+    left: 1em;
+  }
+
+  .hundred_img {
+    position: relative;
+    width: 55vw;
+    height: auto;
+    top: 0;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .hundred p {
+    position: relative;
+    top: 0em;
+    color: white;
+    width: 83vw;
+    font-size: 12px;
+    margin: 0 4em 1em 2em;
+    padding: 0;
+  }
+
+  .expanse {
+    width: 100vw;
+    height: 47vh;
+  }
+
+  .expanse h2 {
+    position: relative;
+    top: 0em;
+    font-size: 20px;
+    left: 1em;
+  }
+
+  .exp_img {
+    position: relative;
+    width: 55vw;
+    height: auto;
+    top: 0;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .expanse p {
+    position: relative;
+    top: 0em;
+    color: black;
+    width: 83vw;
+    font-size: 12px;
+    margin: 0 2em 1em 2em;
+    padding: 0;
+  }
+
+  .got {
+    width: 100vw;
+    height: 46vh;
+  }
+
+  .got h2 {
+    position: relative;
+    top: 0em;
+    font-size: 20px;
+    left: 1em;
+  }
+
+  .got_img {
+    position: relative;
+    width: 55vw;
+    height: auto;
+    top: 0;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .got p {
+    position: relative;
+    top: 0em;
+    color: white;
+    width: 83vw;
+    font-size: 12px;
+    margin: 0 4em 1em 2em;
+    padding: 0;
+  }
+
+  .kingdom {
+    width: 100vw;
+    height: 78vh;
+  }
+
+  .kingdom h2 {
+    position: relative;
+    top: 0em;
+    font-size: 20px;
+    left: 1em;
+  }
+
+  .kingdom_img {
+    position: relative;
+    width: 55vw;
+    height: auto;
+    top: 0;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .kingdom p {
+    position: relative;
+    top: 0em;
+    color: black;
+    width: 83vw;
+    font-size: 12px;
+    margin: 0 2em 1em 2em;
+    padding: 0;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+}
