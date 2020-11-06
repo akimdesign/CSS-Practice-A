@@ -5,6 +5,12 @@
   outline: none;
   font-family: "Crimson Text", serif;
 }
+a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4px;
+}
 
 p {
   animation-duration: 2s;
@@ -19,8 +25,11 @@ header {
 
 footer {
   background-color: black;
-  height: 20em;
+  height: 5em;
   margin-top: 15em;
+  color: white;
+  text-align: center;
+  padding-top: 2em;
 }
 
 h1 {
